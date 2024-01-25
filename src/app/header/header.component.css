@@ -1,0 +1,29 @@
+
+
+header {
+    background-color: #151217;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; 
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F9D0A3;
+    font-family: 'Bubbleboddy Neue', cursive;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #FDD90B;
+}

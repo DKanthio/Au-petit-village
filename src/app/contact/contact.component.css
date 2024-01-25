@@ -1,0 +1,50 @@
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9d0a3;
+  }
+  
+  h2 {
+    color: #da001e; 
+    font-family: 'Bubbleboddy Neue', cursive; 
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  label {
+    color: #151217; 
+    font-family: 'Comfortaa', cursive; 
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #151217;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #fdd90b; 
+    color: #151217;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive; 
+  }
+  
+  button:hover {
+    background-color: #da001e; 
+    color: #f9d0a3; 
+  }
+  

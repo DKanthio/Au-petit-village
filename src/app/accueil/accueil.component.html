@@ -1,0 +1,36 @@
+<div class="presentation">
+    <h1>Au Petit Village</h1>
+    <p>Confectionne des figurines inspirées de la bande dessinée Astérix et Obélix.</p>
+</div>
+
+<div class="catalogue">
+    <h2>Catalogue des produits</h2>
+
+    <form>
+        <label for="search">Rechercher par nom :</label>
+        <div class="search-container">
+            <input type="text" id="search" [(ngModel)]="searchTerm" name="search">
+            <button type="button" class="search-button" (click)="sortProducts('asc')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </button>
+        </div>
+    </form>
+    <div>
+        <button (click)="sortProducts('asc')">Trier par prix croissant</button>
+        <button (click)="sortProducts('desc')">Trier par prix décroissant</button>
+    </div>
+
+    <div class="produit" *ngFor="let product of filteredProducts">
+        <a [routerLink]="'/product/' + product.id">
+            <img class="product-image" [src]="'../../assets/images/' + product.image" alt="{{ product.name }}">
+        </a>
+        <a [routerLink]="'/product/' + product.id">
+            <h3>{{ product.name }}</h3>
+        </a>
+        <p>Prix : {{ product.price }} €</p>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+{
+    "products":
+    [
+        { "id": 1, "name": "Astérix qui court", "price": 25, "image": "asterix0.jpg", "description": "Une figurine d'Astérix en pleine course." },
+        { "id": 2, "name": "Astérix avec le chien", "price": 15, "image": "asterix1.jpg", "description": "Astérix accompagné de son fidèle chien Idéfix." },
+        { "id": 3, "name": "Astérix", "price": 20, "image": "asterix2.jpg", "description": "Une figurine d'Astérix avec une description détaillée." },
+        { "id": 5, "name": "Astérix et le Rhino", "price": 30, "image": "asterix3.jpg", "description": "Astérix faisant face à un Rhino dans cette figurine." },
+        { "id": 6, "name": "Obérix et le vieux", "price": 26, "image": "asterix4.jpg", "description": "Obélix et le vieux qui lui fait une potion." },
+        { "id": 7, "name": "Asterix et Obélix", "price": 10, "image": "o et a.jpg", "description": "La célèbre paire de Gaulois, Astérix et Obélix." },
+        { "id": 8, "name": "Obélix et le petit chien", "price": 17, "image": "obelix3.jpg", "description": "Obélix accompagné de son petit chien." },
+        { "id": 9, "name": "Obélix et la pierre", "price": 14, "image": "obélix2.jpg", "description": "Obélix portant une pierre dans cette figurine." },
+        { "id": 10, "name": "Obélix", "price": 22, "image": "obelix1.jpg", "description": "Une figurine individuelle d'Obélix." },
+        { "id": 11, "name": "Obélix et la potion", "price": 28, "image": "obelix-la-potion.jpg", "description": "Obélix tenant une potion magique." },
+        { "id": 12, "name": "Obélix et ses amis ", "price": 18, "image": "petitvillage.jpg", "description": "Obélix et ses amis font une petite dance." },
+        { "id": 13, "name": "le village de Astérix et Obélix", "price": 23, "image": "village.jpg", "description": "Obélix et Astérix avec les habitants du village." }
+      ]
+      
+}

@@ -1,0 +1,38 @@
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #da001e; 
+    font-family: 'Bubbleboddy Neue', cursive;
+  }
+  
+  
+  h3 {
+    color: #151217; 
+  
+  }
+  
+  p {
+    color: #151217;
+    line-height: 1.5;
+    font-family: 'Comfortaa', cursive; 
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    color: #151217;
+    margin-bottom: 5px;
+  }
+  
+  
+  section {
+    background-color: #f9d0a3; 
+  }
+  

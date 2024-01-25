@@ -1,0 +1,25 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+footer {
+    background-color: #151217;
+    color: #F9D0A3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .reseaux-sociaux {
+    margin-bottom: 20px;
+  }
+  
+  .reseaux-sociaux a {
+    margin: 0 10px;
+  }
+  
+  .reseaux-sociaux img {
+    width: 30px; 
+  }
+  
+  p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+  }
+  

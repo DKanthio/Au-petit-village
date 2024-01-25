@@ -1,0 +1,38 @@
+.product-detail {
+    font-family: 'Comfortaa', sans-serif;
+    color: #151217;
+    background-color: #F9D0A3;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-detail h2 {
+    font-family: 'Bubbleboddy Neue', cursive;
+    color: #DA001E;
+  }
+  .product-image {
+    width: 20%; 
+    height: auto; 
+    max-width: 50px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .product-detail p {
+    margin-bottom: 10px;
+  }
+  
+  .product-detail img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-detail p.description {
+    font-family: 'Comfortaa', sans-serif;
+    color: #FDD90B;
+  }
+  

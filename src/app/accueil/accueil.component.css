@@ -1,0 +1,106 @@
+
+
+.presentation {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .presentation h1 {
+    font-family: 'Bubbleboddy Neue', cursive;
+    color: #151217;
+  }
+  
+  .presentation p {
+    font-family: 'Comfortaa', cursive;
+    color: #DA001E;
+  }
+  
+  .catalogue {
+    text-align: center;
+  }
+  
+  .catalogue h2 {
+    font-family: 'Bubbleboddy Neue', cursive;
+    color:#151217;
+  }
+  
+  .produit {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #DA001E;
+  }
+  
+ 
+  .produit h3 {
+    font-family: 'Bubbleboddy Neue', cursive;
+    color: #151217;
+  }
+  
+  .produit p {
+    font-family: 'Comfortaa', cursive;
+    color:#DA001E;
+  }
+  .product-image {
+    width: 100%; 
+    height: auto; 
+    max-width: 150px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+ 
+form {
+  margin-bottom: 20px;
+  color:#151217 ;
+}
+
+label {
+  display: block;
+  font-family: 'Comfortaa', cursive;
+  color: #DA001E;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+
+button {
+  background-color: #F9D0A3;
+  color: #151217;
+  font-family: 'Bubbleboddy Neue', cursive;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+button.search-button i {
+  margin-right: 5px;
+}
+
+
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-button {
+ 
+  color: #151217;
+  font-family: 'Bubbleboddy Neue', cursive;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
